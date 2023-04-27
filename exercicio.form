@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio formulário em html</title>
+</head>
+<body>
+    <h1>Cadastre aqui!</h1>
+    <hr> <br>
+    <form>
+        <label for="nome">Nome Completo</label><br>
+        <input id="nome" type="text"><br><br>
+        <label for="email">E-mail</label><br>
+        <input id="email" type="email"><br><br>
+        <label for="senha">Senha</label>
+        <p style="font-size: 11px; width: 220px; color: rgb(119, 119, 119); margin-top: 0; margin-bottom: 5px;">a senha deverá ter exatamente 6 caracteres dos quais 4 deverão ser numéricos e 2 alfanuméricos</p>           
+        <input id="senha" placeholder="SENHA" type="password"><br><br>
+        <button type="submit">Realizar Cadastro</button><br><br>
+        <input id="Aceitar-term" type="checkbox"> <label for="Aceitar-term">Aceitar os termos de privacidade</label>
+        
+    </form>
+    
+</body>
+</html>
